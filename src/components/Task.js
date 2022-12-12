@@ -1,7 +1,7 @@
-function Task() {
+function Task(props) {
   return (
     <div className="card">
-      <h2>wash the dish</h2>
+      <h2>{props.text}</h2>
       <div className="actions">
         <button className="btn">Finish</button>
       </div>

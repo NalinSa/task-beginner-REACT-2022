@@ -5,21 +5,22 @@
 body {
   font-family: sans-serif;
   margin: 3rem;
-  background-color: #E1ECD7;
+  background-color: #D8E6ED;
 }
 
 h1, h2 {
-  color: #333333;
+  color: #221f1c;
 }
+
 
 .btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
   border-radius: 4px;
-  background-color: #E0795D;
+  background-color: #9694E8;
   color: white;
-  border: 1px solid #E0795D;
+  border: 1px solid #9694E8;
   margin: 0 1rem;
 }
 
@@ -30,7 +31,7 @@ h1, h2 {
 
 .btn--alt {
   background-color: transparent;
-  color: #fbcb63;
+  color: #9694E8;
 }
 
 .btn--alt:hover {
@@ -38,7 +39,7 @@ h1, h2 {
 }
 
 .card {
-  background-color: #F5F2DF;
+  background-color: #FAFAFA;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   padding: 1rem;

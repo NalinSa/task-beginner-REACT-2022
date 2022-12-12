@@ -74,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ![SharedScreenshot1](https://user-images.githubusercontent.com/89216625/207000257-48cdb19e-9e8c-484c-b8a0-0f1b507fadc2.jpg)
 
+## When click the button "finish" on each task
+![SharedScreenshot2](https://user-images.githubusercontent.com/89216625/207000597-ee240944-2533-44f9-b5c6-a3fce35805d9.jpg)
+
+

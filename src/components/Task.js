@@ -7,6 +7,9 @@ function Task(props) {
     console.log(props.text + " *finish*");
     setTriggerPop(true);
   }
+  function closeTriggerHandler(){
+    setTriggerPop(false);
+  }
   return (
     <div className="card">
       <h2>{props.text}</h2>
@@ -15,8 +18,8 @@ function Task(props) {
           Finish
         </button>
       </div>
-      {triggerIsPop ? <TriggerConfirm /> : null}
-      {triggerIsPop && <Backdrop />}
+      {triggerIsPop ? <TriggerConfirm onCancelClick = {closeTriggerHandler} onAcceptClick = {closeTriggerHandler}/> : null}
+      {triggerIsPop && <Backdrop onClick = {closeTriggerHandler}/>}
     </div>
   );
 }
